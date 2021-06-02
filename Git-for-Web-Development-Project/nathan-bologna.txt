@@ -1,0 +1,80 @@
+https://codepen.io/Nbologna20/pen/WNpXgmw 
+
+https://lambdaschool.instructure.com/courses/1253/quizzes/38421?module_item_id=596799
+
+
+1. What is Semantic HTML? 
+An element that clearly describes its meaning.
+    2. What is HTML used for? 
+language used to structure a web page and its content
+    3. What is an attribute and where do we put it? 
+a specified tag for the characteristic or property of an element like width or height.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+Header one should only be used once
+    5. Name two tags that have required attributes
+an img and a anchor tag
+    6. What do we put in the head of our HTML document? 
+header
+    7. What is an id? 
+specific id normally only used once
+    8. What elements can I add an id to? 
+any specific element
+    9. How many times can I use the same id on a page?
+ can only use id once howver you can use <p id="one"> <p id="two">
+    10. What is a class? 
+an attribute which specifies one or more class names for an element.
+    11. What elements can I add a class to? 
+<div> and some others
+    12. How many times can I use the same class on a page? 
+the same class is once, you can have different classes though.
+    13. How do I get my link to open in a new tab?
+<p> <a href="the link" target="_blank" the href= is the link and the _blank is the new tab
+    14. What is the alt attribute in the image tag used for? 
+an alternate description of the image if it wont load
+    15. How do I reference an id?
+whatever the id is tied so so if a header was id to h1 itd be <h1 id="myheader>
+    16. What is the difference between a section and a div
+section means that the content inside of it is grouped and should appear as an entry. div doesnt do that
+    17. What is CSS used for? 
+to bring the html to life, add colors format the script at borders
+    18. How to we select an element? Example - every h2 on the page
+h2{ }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+id is used to identify one single element
+    20. How do we select classes in CSS?
+. (name of class){}
+    21. How do we select a p element with a single class of “human””?
+p .human{}
+    22. What is a parent child selector? When would this be useful? 
+selects all elements that are a direct child of a specific element like anchor tags for images. We'd use it for images
+    23. How do you select all links within a div with the class of sidebar?
+something like .navigation-div: {}
+    24. What is a pseudo selector?
+a selector for elements in specific state (first element of their type)
+    25. What do we use the change the spacing between lines?
+so our web page will look sleeker and come out good on every screen 
+    26. What do we use to change the spacing between letters?
+width or letter-spacing: property
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+capitalize: , lowercase: 
+    28. How do I add a 1px border around my div that is dotted and black?
+border: 1px dotted black;
+    29. How do I select everything on the page? 
+*
+    30. How do I write a comment in CSS?
+/**/
+    31. How do I find out what file I am in, when I am using the command line? 
+pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm -r or rmdir
+    34. Why should I use version control? 
+keeps track of changes and keeps everyone working off the latest version
+    35. How often should I commit to github?
+whenever you make some serious changes, couple times a hour
+    36. What is the command we would use to push our repo up to github? 
+git push -u "whatever the file is"
+    37. Walk me through Lambda's git flow. 
+go to the github, fork the file so you have your own, copy the link, open gitbash find the web45LambdaProjects in your files copy the fork into it
+make it your own,edit it, commit it, certify the commit so its no longer red, push it, and pull it.
